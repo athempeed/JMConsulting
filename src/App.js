@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './sections/NavBar/NavBar';
+import Hero from './sections/Hero/Hero';
+import About from './sections/About/About';
+import Capabilities from './sections/Capabilities/Capabilities';
+import Services from './sections/Services/Services';
+import UseCases from './sections/UseCases/UseCases';
+import Industries from './sections/Industries/Industries';
+import Approach from './sections/Approach/Approach';
+import CTAHighlight from './sections/CTAHighlight/CTAHighlight';
+import FAQ from './sections/FAQ/FAQ';
+import Contact from './sections/Contact/Contact';
+import Footer from './sections/Footer/Footer';
+import MobilePanel from './sections/MobilePanel/MobilePanel';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" id="top">
+      <NavBar />
+      <main>
+        <Hero />
+        <About />
+        <Capabilities />
+        <Services />
+        <UseCases />
+        <Industries />
+        <Approach />
+        <CTAHighlight />
+        <FAQ />
+        <Contact />
+      </main>
+      <Footer />
+      <MobilePanel />
     </div>
   );
 }

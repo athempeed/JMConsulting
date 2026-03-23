@@ -1,0 +1,25 @@
+.mobile-panel {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: 12px;
+  z-index: 60;
+  display: none;
+  gap: 12px;
+  padding: 12px;
+  border-radius: 20px;
+  background: rgba(12, 29, 47, 0.94);
+  border: 1px solid var(--line);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow);
+}
+
+.mobile-panel a {
+  flex: 1;
+}
+
+@media (max-width: 860px) {
+  .mobile-panel {
+    display: flex;
+  }
+}
