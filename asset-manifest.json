@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/JMConsulting/static/css/main.4f9322e9.css",
-    "main.js": "/JMConsulting/static/js/main.ae55f7f3.js",
+    "main.css": "/JMConsulting/static/css/main.980d477f.css",
+    "main.js": "/JMConsulting/static/js/main.4ef4715f.js",
     "static/js/453.8c22ad4f.chunk.js": "/JMConsulting/static/js/453.8c22ad4f.chunk.js",
     "index.html": "/JMConsulting/index.html",
-    "main.4f9322e9.css.map": "/JMConsulting/static/css/main.4f9322e9.css.map",
-    "main.ae55f7f3.js.map": "/JMConsulting/static/js/main.ae55f7f3.js.map",
+    "main.980d477f.css.map": "/JMConsulting/static/css/main.980d477f.css.map",
+    "main.4ef4715f.js.map": "/JMConsulting/static/js/main.4ef4715f.js.map",
     "453.8c22ad4f.chunk.js.map": "/JMConsulting/static/js/453.8c22ad4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f9322e9.css",
-    "static/js/main.ae55f7f3.js"
+    "static/css/main.980d477f.css",
+    "static/js/main.4ef4715f.js"
   ]
 }
